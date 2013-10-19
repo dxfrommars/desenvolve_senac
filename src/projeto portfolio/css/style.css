@@ -4,6 +4,7 @@
 body	{
 	margin:0;
 	padding:0;
+	background:#00acb8;
 }
 
 /***** Menu *****/
@@ -22,6 +23,13 @@ body	{
 .logo	{
 	width:300px;	
 	display:inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo a{
+	text-decoration:none;
+	color:#fff;
 }
 .itens-menu	{
 	float:right;
@@ -42,16 +50,17 @@ body	{
 	font-size:15px;
 }
 #menu ul li a {
-	padding: 2px 10px;
-	display: inline-block;
+	padding: 2px 12px;
+	display: inline;
 	text-decoration:none;
-	color:#333333;
+	color:#fff;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:15px;
 }
 #menu ul li a:hover {
 	text-decoration:none;
-	color:#E3571A;
+	background: #00526c;
+	padding:18px 12px;
 }
 
 /***** Corpo ****/
@@ -59,4 +68,24 @@ body	{
 .grid	{
 	margin:auto;
 	width:960px;
+	padding:50px 0;
+}
+.conteudo1{
+	color:#fff;
+}
+#titulo1{
+	text-align:center;
+	font-size:36px;
+	color:#004256;
+}
+
+
+.conteudo2{
+	background:#00b8b5;
+	color:#fff;
+}
+#tituloPort{
+	text-align:center;
+	font-size:36px;
+	color:#004256;
 }

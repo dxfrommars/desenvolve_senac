@@ -1,0 +1,187 @@
+div:after, ol:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+p{
+	color: #333;
+}
+
+/* HEADER */
+header{
+	background: #e74c3c;
+	padding: 10px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+#logo{
+	display: inline-block;
+}
+nav{
+	float: right;
+	padding:15px;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	color: #fff;
+}
+li:last-child{
+	padding-right: 0px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li a:link{
+	padding: 27px;
+}
+ul li a:visited{
+	background-color: #c0392b;
+	padding: 27px;
+}
+ul li a:hover{
+	background-color: #c0392b;
+	padding: 27px;
+}
+
+
+/* SECTION 1 */
+#bloco1{
+	background-image: url('../img/subtlenet2.png');
+	background-repeat: repeat-x repeat-y; 
+	height: 250px;
+	padding-top: 50px;
+}
+#doceIlustra{
+	float: left;
+	margin-right: 50px;
+}
+#titulo1{
+	float: right;
+	width: 750px;
+	margin-top: 15px;
+}
+h1.tituloBanner{
+	margin: 30px 0 10px 0;
+	color: #c0392b;
+	font-family: 'Cookie' sans-serif;
+	font-size: 55px;
+}
+
+
+/* SECTION 2 */
+#bloco2{
+	background: #eee8de;
+	height: 200px;
+}
+#info1{
+	width: 280px;
+	margin: 50px 60px 0 0;
+	float: left;
+}
+#info2{
+	width: 280px;
+	margin: 50px 60px 0 0;
+	float: left;
+}
+#info3{
+	width: 280px;
+	margin: 50px 0 0 0;
+	float: right;
+}
+.tituloInfos{
+	color: #a32223;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.pInfos{
+	color: #a89b7f;
+}
+
+
+/* SECTION 3 */
+iframe{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/* FOOTER */
+footer{
+	padding: 15px 0;
+	background-color: #c0392b;
+	text-transform: uppercase;
+}
+footer div span{
+	font-size: 14px;
+	color: #fff;
+}
+
+
+/* DOCES */
+#doces{
+	background-image: url('../img/subtlenet2.png');
+	background-repeat: repeat-x repeat-y; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h1.tituloDoce{
+	color: #c0392b;
+	font-family: 'Cookie' sans-serif;
+	font-size: 55px;
+	margin-bottom: 5px;
+}
+#doce1{
+	width: 280px;
+	margin: 50px 60px 0 0;
+	float: left;
+}
+#doce2{
+	width: 280px;
+	margin: 50px 60px 0 0;
+	float: left;
+}
+#doce3{
+	width: 280px;
+	margin-top: 50px;
+	float: right;
+}
+#doce4{
+	width: 280px;
+	margin: 20px 60px 0 0;
+	clear: both;
+	float: left;
+}
+#doce5{
+	width: 280px;
+	margin: 20px 60px 0 0;
+	float: left;
+}
+#doce6{
+	width: 280px;
+	margin-top: 20px;
+	float: right;
+}
+
+
+/* CONTATO */
+#form{
+	background-image: url('../img/subtlenet2.png');
+	background-repeat: repeat-x repeat-y;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h1.tituloForm{
+	color: #c0392b;
+	font-family: 'Cookie' sans-serif;
+	font-size: 55px;
+	margin-bottom: 20px;
+}
